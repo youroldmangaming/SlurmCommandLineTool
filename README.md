@@ -1,5 +1,3 @@
-Certainly! Below is a README file written in Markdown format for the usage of the Slurm command execution tool.
-
 ```markdown
 # Slurm Command Execution Tool
 
@@ -85,7 +83,7 @@ Contributions are welcome! If you have suggestions for improvements or find bugs
 
 ---
 
-For any further questions or support, please contact the maintainer.
+For any further questions or support, please contact the maintainer Mike Wilson, admin@youroldmangaming.com .
 ```
 
 ### Instructions for Use
