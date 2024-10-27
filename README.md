@@ -1,4 +1,4 @@
-```markdown
+
 # Slurm Command Execution Tool
 
 This tool allows users to execute commands across a Slurm-managed cluster while providing options to exclude specific nodes. It captures and displays the output from each node, making it easy to manage and monitor distributed tasks.
