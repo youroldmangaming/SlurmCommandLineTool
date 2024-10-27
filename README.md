@@ -22,7 +22,9 @@ This tool allows users to execute commands across a Slurm-managed cluster while 
 3. Compile the program using GCC:
 
    ```bash
-   gcc -o slurm_run slurm_run.c
+     gcc -o ... slurm_cluster.c
+     sudo mv ... /usr/local/bin/
+
    ```
 
 ## Usage
@@ -30,7 +32,7 @@ This tool allows users to execute commands across a Slurm-managed cluster while 
 The tool can be executed from the command line with the following syntax:
 
 ```bash
-./slurm_run [-e exclude_list] <command>
+... [-e exclude_list] <command>
 ```
 
 ### Parameters
@@ -43,7 +45,7 @@ The tool can be executed from the command line with the following syntax:
 1. **Run a command on all available nodes:**
 
    ```bash
-   ./slurm_run date
+   ... date
    ```
 
    Output:
@@ -56,7 +58,7 @@ The tool can be executed from the command line with the following syntax:
 2. **Run a command while excluding specific nodes:**
 
    ```bash
-   ./slurm_run -e "rpi41,rpi51" date
+   ... -e "rpi41,rpi51" date
    ```
 
    Output:
