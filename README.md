@@ -87,11 +87,3 @@ Contributions are welcome! If you have suggestions for improvements or find bugs
 
 For any further questions or support, please contact the maintainer Mike Wilson, admin@youroldmangaming.com .
 ```
-
-### Instructions for Use
-
-1. Copy the above Markdown text into a file named `README.md`.
-2. Place this file in the same directory as your compiled program (`slurm_run`).
-3. You can view this README using any Markdown viewer or by rendering it on platforms like GitHub.
-
-This README provides clear instructions on how to use your tool, including examples and error handling information, making it easy for users to understand its functionality.
